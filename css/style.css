@@ -1,0 +1,516 @@
+html,body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+* { box-sizing:border-box;}
+.text-alin{
+	text-align: center;
+}
+body{
+	margin: auto;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-around;
+}
+.row{
+	margin:0;
+}
+
+#contenedorDbanners{
+margin-top: 105px;
+}
+#caru{
+	margin-top: 36px;
+}
+
+.s{
+	color:red;
+	font-size:1.8rem;
+}
+#barraSup{
+	margin: 10px 0 10px 0;
+	
+}
+#navegacion,#navbarra{
+	margin:0;
+	border:0;
+	padding: 0;
+
+}
+#cursos-men{
+color:#000;
+}
+
+.navbar-default .navbar-toggle
+{
+	border-color: #080808;
+}
+
+/*#botonbar{
+	background-color: rgba(0,0,0,0.6);
+}*/
+
+
+#menDrop li{
+	background-color: rgba(0,0,0,0.1);
+	margin:auto;
+}
+#menDrop li a{
+font-size: 1.1rem;
+}
+#items-menu{
+	width: 100%;
+	margin:0;
+}
+
+#items-menu li a, #menDrop li a{
+
+	color:#000;
+	text-align: center;
+	
+}
+.barramenu{
+	padding: 0;
+	background-color: rgba(139,179,232,0.9);
+}
+.alinearCenter{
+	display: flex;
+	justify-content: center;
+}
+header{
+	position: fixed;
+	box-shadow: 0 0 15px 0;
+	top:0;
+	width: 100%;
+	z-index: 99;
+	background: linear-gradient(rgba(255,255,255,1),rgba(139,179,232,0.850)); 
+
+}
+/*++++++*/
+/*Movil*/
+
+
+
+#myCarousel{
+	width: 100%;
+	height: auto;
+	
+}
+
+
+#img-banner-mov{
+	
+	width: 100%;
+	height: auto;
+	
+}
+#ima-ban{
+	padding: 0;
+}
+
+/*main*/
+
+#title-about,#presentatio-courses{
+	padding: 65px 0 65px 0;
+}
+
+#par-about{
+	padding: 0 10px 0 10px;
+}
+
+.set-img{
+	width: 100%;
+	height: auto;
+	-webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+     transition: all 0.7s ease;
+}
+
+
+	/*IMAGENES*/
+	.space{
+		margin-top: 60px;
+	}
+	
+
+#img1{
+	border-bottom: 10px solid #f1652a;
+
+}
+
+#img2{
+	border-bottom: 10px solid #00990c;
+
+}
+#img3{
+	border-bottom: 10px solid #f12e43;
+
+}
+#img4{
+	border-bottom: 10px solid #8bb3e8;
+
+}
+#cuuno:hover{
+background: linear-gradient(rgba(241,101,42,0.6),rgba(242,131,84,0.4)); 	
+}
+#cudos:hover{
+background: linear-gradient(rgba(0,153,12,0.6),rgba(70,171,78,0.4)); 	
+}
+#cutres:hover{
+background: linear-gradient(rgba(241,46,67,0.6),rgba(246,99,115,0.4)); 	
+}
+#cucuatro:hover{
+background: linear-gradient(rgba(139,179,232,0.6),rgba(139,179,232,0.4)); 	
+}
+
+
+.desc-cur{
+
+	color:#000;
+	background: linear-gradient(rgba(255,255,255,1),rgba(139,179,232,0.250)); 
+	padding:10px 0 10px 0;
+}
+
+/*formulario*/
+.opdesc{
+	width: 75%;
+	border-radius: 10px;
+	margin:auto;
+}
+.options{
+	width: 100%;
+}
+.sle {
+	display: block;
+	width: 100%;
+	background-color: red;
+}{
+
+}
+.anchoSele{
+width: 100%;
+max-width:100%;
+}
+
+#precio{
+	margin: auto;
+}
+#dtpers, #set-curso, #familiares, #cost{
+	margin-top: 20px;
+}
+
+.pform{
+	padding:0;
+}
+
+
+#spm{
+	font-size: 1.5rem;
+}
+
+.lenye{
+	font-size: 1.3rem;
+	font-weight: 700;
+	padding-top: 35px;
+}
+
+.item-form{
+	font-size: 1.2rem;
+	display: block;
+	margin-top: 15px;
+
+}
+
+
+
+
+
+#formul{
+    background-color: #8bb3e8;
+	color:#000;
+	text-align: left;
+	 width: 100%;
+}
+
+.radioun{
+	height: 25px;
+}
+
+
+#dtpers input{
+	border-radius: 10px;
+	border:none;
+	width: 75%;
+	margin-bottom: 35px; 
+	text-align: center;
+    padding: 5px 10px 5px 10px;
+}
+
+
+#btn-matri{
+	width: 100%;
+	background-color: #45b371;
+	color: #fff;
+	padding: 15px 0 15px 0;
+	font-size: 2.5rem;
+	font-weight: 500;
+	
+}
+#btn-rst{
+	width: 100%;
+	background-color: #f12e43;
+	color: #fff;
+	padding: 15px 0 15px 0;
+	font-size: 1.5rem;
+	font-weight: 500;
+	margin-top: 10px;
+}
+.fami input{
+	width: 100%;
+	margin-top: 20px;
+}
+
+/*CURSOS*/
+
+#cursoswebTra img:hover{
+ height: auto;
+ width: 96%;
+}
+
+.ci{
+	font-size: 1.250rem;
+
+	}
+
+#costCurso{
+	margin-top: 35px;
+}
+
+#cursoelec{
+	padding: 0;
+}
+/*#set-curso,#familiares{
+	width: 100%;
+	text-align: left;
+	padding-left: 25px;
+}*/
+
+#set-curso input {
+	width: 100%;
+	text-align: left;
+}
+#set-curso input {
+	margin:25px 0 25px 0;
+}
+
+#total_pago{
+width: 100%;
+height: 200px;
+text-align: center;
+border:2px solid rgba(0,0,0,0.6); 
+margin-bottom: 10px;
+color: #45b371;
+font-size: 2.7rem;
+}
+
+
+/*formadores*/
+
+#inicio-sec-docentes{
+	margin: 80px 0 15px 0;
+}
+
+.img-form{ 
+	border: 2px solid grey ;
+	margin :30px 0px 20px 0px;
+	/*padding:0px 10px 0px 10px;*/
+	border-radius: 800px;
+	overflow:hidden;
+	width: 200px;
+	height: 200px;
+	/*height: auto;*/
+
+
+}
+
+.dist{
+
+	margin-top: 10px;
+}
+
+
+/*AULAS*/
+
+#aulas-title{
+
+	margin-top: 100px;
+}
+.item-aulas article{
+       	font-size: 1.2rem;
+       	/*margin-top: 20px;*/
+       	border-bottom: 2px solid rgba(0,0,0,0.8);
+       }
+
+
+/*footer*/
+#contributor li{
+	display: inline-block;
+	padding: 15px 8px 0 8px;
+}
+
+#barrafootInf{
+	background-color: rgba(0,0,0,0.6);
+	padding: 10px 0 10px 0;
+}
+#barrafootInf p{
+	margin:0;
+}
+
+#logoinf{
+	margin:20px 0 20px 0;
+
+}
+.stylecontac{
+	font-weight: 300;
+	font-size: 1rem;
+
+}
+
+.list-fot{padding: 0;
+	line-height: 34px;
+}
+
+.list-fot li{
+	list-style-type: none;
+	
+	
+}
+
+#barrfoot{
+	padding:0;
+}
+footer{
+	margin-top: 15px;
+	padding: 55px 0 0 0;
+	background-color: rgba(0,0,0,0.675);
+	background-image: url(../images/codigo-binario.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+
+}
+
+.colortext{
+	font-weight: 300;
+	color:#fff;
+}
+
+
+@media screen and (max-width: 768px){
+    
+    .flex{
+    	display: block;
+    }
+	#title-about{
+		font-size: 1.8rem;
+	}
+
+	h2{
+		font-size: 1.45rem;
+ 	}
+    #btn-matri{
+    	font-size: 1.3rem;
+    }
+	#matri{
+		margin:60px 0 30px 0;
+
+			}
+
+		#presentatio-courses{
+			padding: 65px 0 0 0;
+		}
+
+		/*aulas*/
+       .item-aulas article{
+       	font-size: 1.2rem;
+       	margin-top: 50px;
+       	border-bottom: 2px solid rgba(0,0,0,0.8);
+       }
+
+			/*footer*/
+	    #barrafootInf p{
+	    font-size: 0.7rem;
+}
+
+.trainer{
+	font-size: 1.350rem;
+}
+.logoinf{
+	margin:5px 0 5px 0;
+}
+}
+
+@media screen and (max-width: 1199px){
+
+	.item-aulas article{
+	font-size: 1.2rem;
+	margin-top: 35px;
+}
+}
+@media screen and (min-width: 768px)	{
+	#set-curso,#familiares{
+		text-align: center;
+		
+	}
+
+	#set-curso span ,#familiares span{
+		font-size: 1.2rem;
+	}
+
+#set-curso input {
+	margin:48px 0 48px 0;
+}
+.dist{
+	margin-top: 30px;
+}
+
+#title-about,#presentatio-courses{
+	padding: 100px 0 10px 0;
+}
+#title-about{
+	font-size: 3.8rem;
+}
+
+#par-about{
+	padding: 20px 10px 0 10px;
+	font-size: 1.3rem;
+}
+
+.img-form{
+	margin-bottom: 0;
+}
+
+#matri{
+	margin-top: 100px;
+}
+
+h2{
+	font-size: 2.8rem;
+}
+.item-aulas article{
+	font-size: 1.5rem;
+	margin-top: 35px;
+}
+.trainer{
+	font-size: 1.450rem;
+}
+}	
+
+
+
+
